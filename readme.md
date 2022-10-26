@@ -53,3 +53,15 @@ New-AzResourceGroupDeployment `
 ```
 
 6. Clean up resources after test is done.
+
+---
+
+#### Other Resources related to Static Web App
+
+- [Configure front-end frameworks](https://learn.microsoft.com/en-us/azure/static-web-apps/front-end-frameworks)
+
+- [Enable Monitoring](https://learn.microsoft.com/en-us/azure/static-web-apps/monitor)
+
+- [Troubleshoot Errors](https://learn.microsoft.com/en-us/azure/static-web-apps/troubleshooting)
+
+---
