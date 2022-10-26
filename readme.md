@@ -1,7 +1,25 @@
-# Vanilla JavaScript App
+# Deploying Azure Static Web App using ARM Templates
 
-[Azure Static Web Apps](https://docs.microsoft.com/azure/static-web-apps/overview) allows you to easily build JavaScript apps in minutes. Use this repo with the [quickstart](https://docs.microsoft.com/azure/static-web-apps/getting-started?tabs=vanilla-javascript) to build and customize a new static site.
+[Azure Static web Apps](https://learn.microsoft.com/en-us/azure/static-web-apps/) allows you to build modern web applications that automatically publish to the web as your code changes.
 
-This repo is used as a starter for a _very basic_ HTML web application using no front-end frameworks.
+---
+&nbsp;
 
-This repo has a dev container. This means if you open it inside a [GitHub Codespace](https://github.com/features/codespaces), or using [VS Code with the remote containers extension](https://code.visualstudio.com/docs/remote/containers), it will be opened inside a container with all the dependencies already installed.
+The steps were culled from [Here](https://learn.microsoft.com/en-us/azure/static-web-apps/publish-azure-resource-manager?tabs=azure-cli)
+
+&nbsp;
+
+### Deployment
+* These steps use [Azure PowerShell](https://learn.microsoft.com/en-us/powershell/azure/install-az-ps)
+&nbsp;
+1. Clone the repo
+
+```PowerShell
+git clone https://github.com/CFCIfe/Static-Web-app-ARM 
+```
+
+2. Edit the Parameter Files
+
+Navigate to `azuredeploy/azuredeploy.parameters.json` and change the values of `repositoryUrl` and `repositoryToken`.
+
+3. 
